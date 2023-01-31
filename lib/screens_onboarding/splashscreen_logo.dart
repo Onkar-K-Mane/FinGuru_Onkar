@@ -1,6 +1,5 @@
 import 'dart:async';
-
-import 'package:financeguru_app/splashscreen_expense.dart';
+import 'package:financeguru_app/screens_onboarding/splashscreen_expense.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
