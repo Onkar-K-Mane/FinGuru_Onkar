@@ -1,5 +1,6 @@
+import 'package:financeguru_app/help_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:financeguru_app/screens_onboarding/splashscreen_logo.dart';
+import 'package:financeguru_app/screens_onboarding/logo_ss.dart';
 
 void main() {
   runApp(FinanceGuruApp());

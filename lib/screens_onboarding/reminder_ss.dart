@@ -1,5 +1,5 @@
 import 'package:financeguru_app/widgets/images.dart';
-import 'package:financeguru_app/widgets/text.dart';
+import 'package:financeguru_app/widgets/texts.dart';
 import 'package:flutter/material.dart';
 import 'package:financeguru_app/widgets/buttons.dart';
 

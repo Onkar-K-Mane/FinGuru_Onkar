@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:financeguru_app/screens_onboarding/splashscreen_expense.dart';
+import 'package:financeguru_app/screens_onboarding/expense_ss.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -78,7 +78,7 @@ class _SplashScreenState extends State<SplashScreen> {
                         fontFamily: 'OnBoardingFont',
                         fontWeight: FontWeight.w500),
                   ),
-                  height: 60,
+                  height: 65,
                 ),
                 Container(
                   alignment: Alignment.bottomCenter,
