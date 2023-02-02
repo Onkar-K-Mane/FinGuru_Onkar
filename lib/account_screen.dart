@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:financeguru_app/widgets/appbar_ui.dart';
 
-class ProfileScreen extends StatelessWidget {
-  const ProfileScreen({super.key});
+class AccountScreen extends StatelessWidget {
+  const AccountScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class ProfileScreen extends StatelessWidget {
         appBar: AppBar(
           toolbarHeight: 80,
           centerTitle: true,
-          title: TextAppBar('ADD PROFILE'),
+          title: TextAppBar('ADD ACCOUNT'),
           backgroundColor: Colors.deepPurple,
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.vertical(
@@ -28,7 +28,7 @@ class ProfileScreen extends StatelessWidget {
                   height: MediaQuery.of(context).size.height / 3.3,
                   width: MediaQuery.of(context).size.width,
                   child: Image.asset(
-                    'assets/images/add_profile_image.png',
+                    'assets/images/bank_account.png',
                     fit: BoxFit.fitHeight,
                   )),
               SizedBox(
@@ -53,10 +53,10 @@ class ProfileScreen extends StatelessWidget {
                                   wordSpacing: 2,
                                   letterSpacing: 2),
                               decoration: InputDecoration(
-                                hintText: 'Enter your name',
+                                hintText: 'Enter Bank name',
                                 hintStyle: TextStyle(
                                     color: Colors.white70, fontSize: 16),
-                                prefixIcon: Icon(Icons.person),
+                                prefixIcon: Icon(Icons.account_balance),
                                 prefixIconColor: Colors.white,
                                 focusedBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
@@ -86,10 +86,10 @@ class ProfileScreen extends StatelessWidget {
                                   wordSpacing: 2,
                                   letterSpacing: 2),
                               decoration: InputDecoration(
-                                hintText: 'Enter PAN Card number',
+                                hintText: 'Enter Account number',
                                 hintStyle: TextStyle(
                                     color: Colors.white70, fontSize: 16),
-                                prefixIcon: Icon(Icons.local_parking_sharp),
+                                prefixIcon: Icon(Icons.account_circle),
                                 prefixIconColor: Colors.white,
                                 focusedBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
@@ -120,10 +120,11 @@ class ProfileScreen extends StatelessWidget {
                                   wordSpacing: 2,
                                   letterSpacing: 2),
                               decoration: InputDecoration(
-                                hintText: 'Enter Aadhar Card number',
+                                hintText: 'Enter IFSC code',
                                 hintStyle: TextStyle(
                                     color: Colors.white70, fontSize: 16),
-                                prefixIcon: Icon(Icons.payment_outlined),
+                                prefixIcon:
+                                    Icon(Icons.account_balance_wallet_rounded),
                                 prefixIconColor: Colors.white,
                                 focusedBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
