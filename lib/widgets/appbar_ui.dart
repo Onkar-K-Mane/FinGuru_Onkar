@@ -22,14 +22,14 @@ class TextAppBar extends StatelessWidget {
 }
 
 class AppBars extends StatelessWidget {
-  const AppBars({super.key});
-
+  AppBars(this.text, {super.key});
+  String text;
   @override
   Widget build(BuildContext context) {
     return AppBar(
       toolbarHeight: 80,
       centerTitle: true,
-      title: TextAppBar('HELP'),
+      title: TextAppBar(text),
       backgroundColor: Colors.deepPurple,
       shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(

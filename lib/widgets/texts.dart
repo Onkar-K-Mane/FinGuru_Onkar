@@ -45,6 +45,7 @@ class TextList extends StatelessWidget {
         fontSize: 25,
         fontWeight: FontWeight.w500,
         fontFamily: 'ButtonFont',
+        letterSpacing: 2,
       ),
     );
   }
