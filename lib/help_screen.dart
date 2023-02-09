@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:financeguru_app/widgets/texts.dart';
+import 'package:financeguru_app/screens_onboarding/widgets/texts.dart';
 
 class HelpScreen extends StatelessWidget {
   const HelpScreen({super.key});

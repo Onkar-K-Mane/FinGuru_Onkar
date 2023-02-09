@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:financeguru_app/widgets/appbar_ui.dart';
+import 'package:financeguru_app/screens_onboarding/widgets/appbar_ui.dart';
 
 class AccountScreen extends StatelessWidget {
   const AccountScreen({super.key});

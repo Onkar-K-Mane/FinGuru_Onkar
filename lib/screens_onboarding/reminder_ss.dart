@@ -1,7 +1,7 @@
-import 'package:financeguru_app/widgets/images.dart';
-import 'package:financeguru_app/widgets/texts.dart';
+import 'package:financeguru_app/screens_onboarding/widgets/images.dart';
+import 'package:financeguru_app/screens_onboarding/widgets/texts.dart';
 import 'package:flutter/material.dart';
-import 'package:financeguru_app/widgets/buttons.dart';
+import 'package:financeguru_app/screens_onboarding/widgets/buttons.dart';
 
 class ReminderScreen extends StatelessWidget {
   const ReminderScreen({super.key});

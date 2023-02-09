@@ -1,6 +1,6 @@
-import 'package:financeguru_app/widgets/texts.dart';
+import 'package:financeguru_app/screens_onboarding/widgets/texts.dart';
 import 'package:flutter/material.dart';
-import 'widgets/appbar_ui.dart';
+import 'screens_onboarding/widgets/appbar_ui.dart';
 
 class ReminderScreenApp extends StatelessWidget {
   const ReminderScreenApp({super.key});
@@ -54,18 +54,17 @@ class ReminderScreenApp extends StatelessWidget {
                   scrollDirection: Axis.vertical,
                   reverse: true,
                   itemBuilder: (context, index) {
-                    return ElevatedButton(
-                        style: ButtonStyle(
-                          backgroundColor:
-                              MaterialStatePropertyAll(Colors.white),
-                        ),
-                        onPressed: () {},
-                        child: Card(
-                          child: Center(child: TextList(categoryname[index])),
-                          elevation: 5,
-                          color: Colors.deepPurpleAccent,
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(20)),
+                    return InkWell(
+                        onTap: () {},
+                        child: Container(
+                          height: 60,
+                          child: Card(
+                            child: Center(child: TextList(categoryname[index])),
+                            elevation: 0,
+                            color: Colors.deepPurpleAccent,
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20)),
+                          ),
                         ));
                   },
                   separatorBuilder: (context, index) {

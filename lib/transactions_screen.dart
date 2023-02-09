@@ -1,6 +1,6 @@
-import 'package:financeguru_app/widgets/texts.dart';
+import 'package:financeguru_app/screens_onboarding/widgets/texts.dart';
 import 'package:flutter/material.dart';
-import 'package:financeguru_app/widgets/appbar_ui.dart';
+import 'package:financeguru_app/screens_onboarding/widgets/appbar_ui.dart';
 
 class TransactionScreen extends StatelessWidget {
   const TransactionScreen({super.key});

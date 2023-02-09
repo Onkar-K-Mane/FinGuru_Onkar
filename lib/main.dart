@@ -3,6 +3,9 @@ import 'package:financeguru_app/bank_account_screen.dart';
 import 'package:financeguru_app/expenses_screen.dart';
 import 'package:financeguru_app/help_screen.dart';
 import 'package:financeguru_app/category_screen.dart';
+import 'package:financeguru_app/homePage.dart';
+import 'package:financeguru_app/menu_screen.dart';
+import 'package:financeguru_app/navigationbar.dart';
 import 'package:financeguru_app/profile_screen.dart';
 import 'package:financeguru_app/transactions_screen.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +22,7 @@ class FinanceGuruApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: AccountScreen(),
+      home: HomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
