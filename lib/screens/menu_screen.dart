@@ -1,4 +1,4 @@
-import 'package:financeguru_app/screens_onboarding/widgets/appbar_ui.dart';
+import 'package:financeguru_app/widgets/appbar_ui.dart';
 import 'package:flutter/material.dart';
 
 class MenuScreen extends StatelessWidget {

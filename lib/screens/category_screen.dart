@@ -1,6 +1,6 @@
-import 'package:financeguru_app/screens_onboarding/widgets/texts.dart';
+import 'package:financeguru_app/widgets/texts.dart';
 import 'package:flutter/material.dart';
-import 'screens_onboarding/widgets/appbar_ui.dart';
+import '../widgets/appbar_ui.dart';
 
 class CategoryScreen extends StatelessWidget {
   const CategoryScreen({super.key});
