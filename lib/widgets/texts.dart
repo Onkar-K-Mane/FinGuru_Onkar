@@ -42,7 +42,7 @@ class TextList extends StatelessWidget {
       text!,
       style: TextStyle(
         color: Colors.white,
-        fontSize: 25,
+        fontSize: 20,
         fontWeight: FontWeight.w500,
         fontFamily: 'ButtonFont',
         letterSpacing: 2,

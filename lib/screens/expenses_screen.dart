@@ -7,8 +7,8 @@ class ExpensesScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var transaction = ['Paneer', 'Souvenier', 'Sugar', 'Flipkart'];
-    var amount = [45, 322, 8754, 78, 4500];
+    var transaction = ['Paneer', 'Souvenier', 'Sugar', 'Flipkart', "Amazon"];
+    var amount = [45, 322, 8754, 78, 4500, 599];
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.white,

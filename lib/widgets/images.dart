@@ -1,8 +1,7 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
-import 'package:flutter_swiper/flutter_swiper.dart';
+
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:flutter_swiper_plus/flutter_swiper_plus.dart';
 
 // ignore: must_be_immutable
 class ImageTopUI extends StatelessWidget {
@@ -126,7 +125,9 @@ class _ImageSliderState extends State<ImageSlider> {
     return CarouselSlider.builder(
         itemCount: widget.imageAddress!.length,
         options: CarouselOptions(
-          autoPlay: true,
+          enlargeCenterPage: true,
+          autoPlayCurve: Curves.bounceInOut,
+          autoPlay: false,
         ),
         itemBuilder: (context, index, i) {
           return Padding(

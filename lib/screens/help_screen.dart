@@ -16,7 +16,7 @@ class HelpScreen extends StatelessWidget {
             children: [
               Container(
                 width: MediaQuery.of(context).size.width,
-                height: MediaQuery.of(context).size.height / 2,
+                height: MediaQuery.of(context).size.height * 0.65,
                 color: Colors.white,
                 child: Image.asset(
                   'assets/images/help.jpg',
@@ -25,10 +25,11 @@ class HelpScreen extends StatelessWidget {
               ),
               Container(
                 width: MediaQuery.of(context).size.width,
-                height: MediaQuery.of(context).size.height / 2,
+                height: MediaQuery.of(context).size.height * 0.6,
                 child: Align(
                   alignment: Alignment.bottomCenter,
                   child: Container(
+                    padding: EdgeInsets.only(left: 20, right: 20),
                     child: Text(
                       'HOW MAY I HELP YOU ?',
                       style: TextStyle(
@@ -39,6 +40,7 @@ class HelpScreen extends StatelessWidget {
                           letterSpacing: 2,
                           wordSpacing: 3,
                           height: 1.5),
+                      textAlign: TextAlign.center,
                     ),
                   ),
                 ),
@@ -47,7 +49,7 @@ class HelpScreen extends StatelessWidget {
           ),
           Container(
             width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.height / 2.38,
+            height: MediaQuery.of(context).size.height * 0.3,
             color: Colors.white,
             child: ListView.separated(
                 reverse: true,

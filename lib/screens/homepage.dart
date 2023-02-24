@@ -1,3 +1,4 @@
+import 'package:financeguru_app/widgets/bargraph.dart';
 import 'package:financeguru_app/widgets/bottomnavigationbar.dart';
 import 'package:financeguru_app/widgets/buttons.dart';
 import 'package:financeguru_app/widgets/images.dart';
@@ -50,7 +51,8 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                   ),
-                )
+                ),
+                BarChart(),
               ],
             ),
             Container(
@@ -138,7 +140,7 @@ class _HomePageState extends State<HomePage> {
                   // borderRadius: BorderRadius.only(
                   //     topLeft: Radius.circular(15),
                   //     topRight: Radius.circular(15)),
-                  color: Colors.amber,
+                  color: Colors.white,
                 ),
                 child: ImageSlider(
                   imageAddress: [

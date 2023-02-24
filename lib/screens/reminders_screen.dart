@@ -58,12 +58,17 @@ class ReminderScreenApp extends StatelessWidget {
                         onTap: () {},
                         child: Container(
                           height: 60,
-                          child: Card(
-                            child: Center(child: TextList(categoryname[index])),
-                            elevation: 0,
-                            color: Colors.deepPurpleAccent,
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(20)),
+                          child: Padding(
+                            padding: const EdgeInsets.only(
+                                top: 2, bottom: 2, left: 20, right: 20),
+                            child: Card(
+                              child:
+                                  Center(child: TextList(categoryname[index])),
+                              elevation: 0,
+                              color: Colors.deepPurpleAccent,
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20)),
+                            ),
                           ),
                         ));
                   },
@@ -71,6 +76,7 @@ class ReminderScreenApp extends StatelessWidget {
                     return Divider(
                       height: 3,
                       thickness: 5,
+                      color: Colors.white,
                     );
                   },
                   itemCount: categoryname.length),

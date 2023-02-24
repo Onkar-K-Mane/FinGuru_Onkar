@@ -27,12 +27,14 @@ class AccountScreen extends StatelessWidget {
               Container(
                   height: MediaQuery.of(context).size.height / 3.3,
                   width: MediaQuery.of(context).size.width,
-                  child: Image.asset(
-                    'assets/images/bank_account.png',
-                    fit: BoxFit.fitHeight,
+                  child: CircleAvatar(
+                    child: Image.asset(
+                      'assets/images/bank_account.png',
+                      fit: BoxFit.contain,
+                    ),
                   )),
               SizedBox(
-                height: MediaQuery.of(context).size.height / 10,
+                height: MediaQuery.of(context).size.height / 6,
               ),
               Container(
                   child: Card(
